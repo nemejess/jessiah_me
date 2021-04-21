@@ -1,0 +1,5 @@
+---
+deployment: 
+ tasks: 
+ - export PREVIEWPATH=/home/jesschct/public_html/preview
+ - /bin/cp -R preview $PREVIEWPATH
